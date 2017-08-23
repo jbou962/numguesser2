@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: Roboto;
+}
+button:focus{
+  outline: none;
+}
+header {
+  background-color: #404041;
+  text-align: center;
+  padding: 28px;
+}
+.num {
+  color: #ed458b;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 600;
+
+}
+
+.guess {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 300;
+
+}
+
+section {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #D0D2D3;
+}
+
+button {
+  background-color: #D0D2D3;
+  border-radius: 20px;
+  padding: 5px 80px 5px 80px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  border: none;
+  margin: 10px 10px 50px 10px;
+
+}
+.reset-button {
+  padding: 5px 150px 5px 150px;
+  margin-top: 3em;
+  font-size: 20px;
+}
+ button:hover {
+  background-color: #ed458b;
+}
+
+.guess-number {
+  font-size: 150px;
+  color: #ed458b;
+}
+p {
+  font-size: 25px;
+  font-weight: 100;
+}
